@@ -3,7 +3,6 @@ import { PrismicPreview } from "@prismicio/next";
 import { repositoryName } from "@/prismicio";
 
 import "./app.css";
-// import Header from "@/components/Header";
 
 const alpino = localFont({
   src: "../../public/fonts/Alpino-Variable.woff2",
