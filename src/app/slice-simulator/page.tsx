@@ -4,7 +4,6 @@ import {
   getSlices,
 } from "@prismicio/next";
 import { SliceZone } from "@prismicio/react";
-
 import { components } from "../../slices";
 
 export default async function SliceSimulatorPage({
@@ -18,4 +17,4 @@ export default async function SliceSimulatorPage({
       <SliceZone slices={slices} components={components} />
     </SliceSimulator>
   );
-}
+};
