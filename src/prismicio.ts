@@ -6,8 +6,7 @@ import {
 import { enableAutoPreviews } from "@prismicio/next";
 import sm from "../slicemachine.config.json";
 
-export const repositoryName =
-  process.env.NEXT_PUBLIC_PRISMIC_ENVIRONMENT || sm.repositoryName;
+export const repositoryName = process.env.NEXT_PUBLIC_PRISMIC_ENVIRONMENT || sm.repositoryName;
 
 /**
  * A list of Route Resolver objects that define how a document's `url` field is resolved.
